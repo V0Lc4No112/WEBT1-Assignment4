@@ -1,0 +1,95 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #16302B;
+  background-color: #E6EFEC;
+}
+
+.booking {
+  overflow: hidden;
+  border-radius: 2rem;
+  background-color: #FFFFFF;
+  box-shadow: 0 1rem 3rem rgba(22, 48, 43, 0.15);
+}
+
+.booking-header {
+  background-color: #0F6B5F;
+  color: #FFFFFF;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-control,
+.form-select {
+  border-color: #E6EFEC;
+  border-radius: 1rem;
+  background-color: #F4F7F5;
+  color: #16302B;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  border-color: #0F6B5F;
+  box-shadow: 0 0 0 0.25rem rgba(15, 107, 95, 0.25);
+}
+
+.form-check-input {
+  border-color: rgba(22, 48, 43, 0.35);
+}
+
+.form-check-input:checked {
+  border-color: #0F6B5F;
+  background-color: #0F6B5F;
+}
+
+.input-group-text {
+  border-color: #0F6B5F;
+  border-radius: 1rem;
+  background-color: #0F6B5F;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.trip .btn {
+  --bs-btn-color: #0F6B5F;
+  --bs-btn-border-color: #0F6B5F;
+  --bs-btn-hover-color: #0F6B5F;
+  --bs-btn-hover-bg: #F4F7F5;
+  --bs-btn-hover-border-color: #0F6B5F;
+  --bs-btn-active-color: #FFFFFF;
+  --bs-btn-active-bg: #0F6B5F;
+  --bs-btn-active-border-color: #0F6B5F;
+  --bs-btn-focus-shadow-rgb: 15, 107, 95;
+  --bs-btn-border-radius: 50rem;
+  font-weight: 600;
+}
+
+.btn-find {
+  --bs-btn-color: #16302B;
+  --bs-btn-bg: #F2A93B;
+  --bs-btn-border-color: #F2A93B;
+  --bs-btn-hover-color: #16302B;
+  --bs-btn-hover-bg: #E0962A;
+  --bs-btn-hover-border-color: #E0962A;
+  --bs-btn-active-color: #16302B;
+  --bs-btn-active-bg: #E0962A;
+  --bs-btn-active-border-color: #E0962A;
+  --bs-btn-focus-shadow-rgb: 242, 169, 59;
+  font-weight: 700;
+}
+
+.btn-clear {
+  --bs-btn-color: #16302B;
+  --bs-btn-bg: #FFFFFF;
+  --bs-btn-border-color: #16302B;
+  --bs-btn-hover-color: #FFFFFF;
+  --bs-btn-hover-bg: #16302B;
+  --bs-btn-hover-border-color: #16302B;
+  --bs-btn-active-color: #FFFFFF;
+  --bs-btn-active-bg: #16302B;
+  --bs-btn-active-border-color: #16302B;
+  --bs-btn-focus-shadow-rgb: 22, 48, 43;
+  font-weight: 700;
+}

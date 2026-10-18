@@ -1,0 +1,18 @@
+.form-control:user-invalid,
+.form-select:user-invalid,
+.form-check-input:user-invalid {
+  border-color: var(--bs-form-invalid-border-color);
+}
+
+.form-control:user-valid,
+.form-select:user-valid {
+  border-color: var(--bs-form-valid-border-color);
+}
+
+.form-check-input:user-invalid ~ .form-check-label {
+  color: var(--bs-form-invalid-color);
+}
+
+:user-invalid ~ .invalid-feedback {
+  display: block;
+}
